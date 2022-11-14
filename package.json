@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "compile": "solcjs --abi --include-path node_modules/ --base-path . blockchain/contracts/VendingMachine.sol --output-dir blockchain/build"
+    "compile": "solcjs --abi --include-path node_modules/ --base-path . src/blockchain/contracts/VendingMachine.sol --output-dir src/blockchain/build"
   },
   "eslintConfig": {
     "extends": [
